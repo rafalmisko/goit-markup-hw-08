@@ -1,0 +1,57 @@
+/* ================================== MOBILE style  */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto; 
+  align-items: center; 
+  margin: 0 auto; 
+  
+
+
+}
+
+@media screen and (min-width: 480px) { 
+  .container { 
+  
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: center; 
+}}
+/*  =================================END mobile style  */
+
+/*  =================================TABLLET style  */ 
+
+@media screen and (min-width: 768px)  {
+    .container{
+      
+        padding: 0 15px; 
+        align-items: center; 
+        
+    }
+}
+
+
+
+/*  ==================================END TABLLET style  */ 
+
+/*  ==================================DESKTOP style  */ 
+ 
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+        padding: 0 15px;
+        
+        
+    }
+    }
+
+/*
+.container {
+  max-width: 1200px;
+  min-height: 80px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+*/

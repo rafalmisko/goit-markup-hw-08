@@ -3,7 +3,7 @@
 
 .content {
   display: inline-flex;   
-  padding: 60px 0px;
+  
   align-items: center; 
   justify-content: center; 
   flex-wrap: wrap; 
@@ -14,7 +14,6 @@
 .content__container {
   display: inline-flex; 
   flex-direction: column; 
-
   max-width: 1200px;
   min-height: 80px;
   padding: 0 15px;

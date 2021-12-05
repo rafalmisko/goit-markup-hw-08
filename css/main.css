@@ -716,7 +716,6 @@ ul {
 
 .content {
   display: inline-flex;
-  padding: 60px 0px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;

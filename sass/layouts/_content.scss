@@ -1,11 +1,15 @@
+ 
+
+
 .content {
   display: inline-flex;   
   padding: 60px 0px;
+  align-items: center; 
   justify-content: center; 
   flex-wrap: wrap; 
-  color: red; 
-
+  
 }
+ 
 
 .content__container {
   display: inline-flex; 
@@ -23,6 +27,7 @@
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
+  
   
    
 } 
@@ -78,13 +83,12 @@
     
 // /*tu style dotyczące tego co  na makiecie jest oznaczone jako tablet */            
 .content {
-  display: inline-flex; 
+  display: inline-flex;
+  flex-wrap: wrap; 
   justify-content: center; 
   align-items: center; 
-  flex-wrap: wrap; 
-  
 
-}  
+ }  
     
 .content__container {
   //min-width: 768px;
@@ -94,24 +98,24 @@
   display: inline-flex;
   
 
-  }  
+}  
 
-// .content__item {
-//   display: inline-flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
+.content__item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
-// } 
+}  
 
-// .content__list {
-//   display: inline-flex;
-//   justify-content: center; 
-//   flex-wrap: wrap; 
-//   } 
+.content__list {
+  display: inline-flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  } 
  
-/* .content__icon {  
+.content__icon {  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,14 +124,14 @@
   margin-bottom: 30px;
   background-color: var(--fourth-color);
   border-radius: 4px;
-} */
+} 
 
-/* .icon__box {
+ .icon__box {
   width: 70px;
   height: 70px;
-  } */
+  } 
 
-/* .content h3 {
+.content h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -135,13 +139,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
- } */
+ } 
 
-/* .content p {
+.content p {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-} */ } 
+}  
 
  
  
@@ -220,4 +224,6 @@
 //   font-size: 14px;
 //   line-height: 1.714;
 //   letter-spacing: 0.03em;
-// }
+
+
+}
